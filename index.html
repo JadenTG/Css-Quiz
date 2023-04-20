@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .One{
+            filter: grayscale();
+        }
+
+        .Two{
+            filter: opacity(1);
+        }
+
+        .Three{
+            filter: opacity(0);
+        }
+
+        .Four{
+            filter: opacity(.5);
+        }
+
+        .Five{
+            filter: saturate(5);
+        }
+
+        .Six{
+            filter: grayscale();
+            width: 500px;
+        }
+
+        .Seven{
+            filter: sepia(100%);
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <img class="One" src="Beach.jpg">
+    <img class="Two" src="Landscape.webp">
+    <img class="Three" src="Landscape.webp">
+    <img class="Four" src="Landscape.webp">
+    <img class="Five" src="Landscape.webp">
+    <img class="Six" src="Sunset.jpg">
+    <img class="Seven" src="Sunset.jpg">
+    </div>  
+</body>
+</html>
